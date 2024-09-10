@@ -1,0 +1,678 @@
+@font-face {
+  font-family: 'Helvetica';
+  font-weight: 300;
+  font-style: normal;
+  src: url("./fonts/helvetica_regular.otf");
+}
+
+@font-face {
+  font-family: 'Helvetica-light';
+  font-weight: 300;
+  font-style: normal;
+  src: url("./fonts/helvetica_light.otf");
+}
+
+@font-face {
+  font-family: 'Helvetica-bold';
+  font-weight: 300;
+  font-style: normal;
+  src: url("./fonts/helvetica_bold.otf");
+}
+
+body {
+  font-family: 'Helvetica';
+  transform: translateX(-50%);
+  background-color: black;
+  background-image: url(images/image-9.png);
+  background-color: rgb(41, 41, 41);
+  background-position: top center; /* Располагаем фон сверху по центру */
+  background-size: cover;
+  background-repeat: no-repeat; /* Запрещаем повторение изображения */
+  background-attachment: scroll; /* Фон прокручивается вместе с контентом */
+  overflow-x: hidden; /* Запрещаем горизонтальную прокрутку */
+}
+
+.main-conter {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding: 0 0 0 100px;
+  width: 1920px;
+  top: 76px;
+  left: 50%;
+  box-sizing: border-box;
+}
+
+.header {
+  position: relative;
+  margin: 0 0.05vw 500px 0.05vw;
+  display: flex;
+  justify-content: space-between;
+  width: 19.1vw;
+  box-sizing: border-box;
+}
+
+.header-left {
+  margin: 0.52vw 0.73vw 0.21vw 0;
+  width: 4.22vw;
+  font-weight: 400;
+  font-size: 1.25vw;
+  letter-spacing: -0.05vw;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.header-right {
+
+  width: 4.84vw;
+  font-weight: 400;
+  font-size: 0.94vw;
+  letter-spacing: -0.036vw;
+  color: #FFFFFF;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 2vw 1.88vw 0;
+  justify-content: flex-end; /* Все блоки будут выравниваться справа */
+  flex-wrap: wrap; /* Новые блоки будут добавляться справа, но также переноситься на следующую строку, если не хватает места */
+  gap: 20px; /* Расстояние между блоками */
+}
+
+.list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* Элементы внутри каждого списка будут выровнены справа */
+  gap: 10px; /* Расстояние между элементами списка */
+  width: 20vw; /* Задайте фиксированную ширину для всех блоков */
+}
+
+.group-56 {
+  position: relative;
+  width: auto;
+  
+  height: fit-content;
+  margin-bottom: 1.77vw;
+  color: #FFFFFF;
+  margin: 0 3vw 0 0;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.container-group {
+  position: relative;
+  width: 90vw;
+  height: fit-content;
+  margin-bottom: -5vw;
+  color: #FFFFFF;
+  flex-direction: row;
+  align-self: flex-start;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.group-55 {
+  position: relative;
+  width: auto;
+  height: fit-content;
+  margin-bottom: 1.77vw;
+  color: #FFFFFF;
+  margin: 0 3vw 0 0;
+  align-self: flex-start;
+  box-sizing: border-box;
+}
+
+.group-34 {
+  margin: 0 0 3vw;
+}
+
+.group-33 {
+  margin: 0 0 3vw;
+}
+
+.container-5 {
+  font-size: 3.13vw;
+  letter-spacing: -0.13vw;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.container-7 {
+  
+  font-size: 3.13vw;
+  letter-spacing: -0.13vw;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.container-4 {
+  font-size: 1.25vw;
+  line-height: 1.333;
+  color: #FFFFFF;
+
+}
+
+.container-9 {
+  opacity: 0.3;
+  font-size: 1.25vw;
+  line-height: 1.333;
+  color: #FFFFFF;
+
+}
+.container-8 {
+  
+  font-size: 3.13vw;
+  letter-spacing: -0.13vw;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.container-6, .container-8 {
+  display: flex;
+  flex-wrap: wrap;
+  height: auto;
+  text-decoration: none;
+  align-items: right;
+  font-size: 2.13vw;
+  letter-spacing: -0.13vw;
+  text-transform: uppercase;
+  color: #848484;
+  
+}
+
+.group-54 {
+  position: relative;
+  margin-bottom: 8.18vw;
+  color: #FFFFFF;
+}
+
+.container-10 {
+  margin-bottom: 0.78vw;
+  margin-top: 1vw;
+  font-size: 1.25vw;
+  letter-spacing: -0.05vw;
+  color: #FFFFFF;
+}
+
+.group-49 {
+  
+  width: 25vw;
+  color: #FFFFFF;
+}
+
+.big-baby-tape-1 {
+  font-size: 2.13vw;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+}
+
+.group-112 {
+  width: 2.24vw;
+  height: 2.24vw;
+  opacity: 0.3;
+  color: #FFFFFF;
+}
+
+.group-24 {
+  position: relative;
+  margin: 21.15vw 0 0.78vw 0;
+  display: flex;
+  padding-bottom: 1.77vw;
+  width: 26.88vw;
+  height: fit-content;
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+
+
+.container-2 {
+  display: flex;
+  justify-content: flex-start; /* Текст прижмётся к левому краю */
+  align-items: flex-end; /* Текст будет выровнен по нижнему краю */
+}
+
+.container-2 img {
+  margin-left: auto; /* Отталкивает изображение к правому краю */
+
+}
+
+.group-20 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3vw 0.927vw 0 4vw; /* 17.8px */
+  width: 100vw; /* 1616px */
+  box-sizing: border-box;
+  opacity: 0.3;
+  margin: 0;
+}
+
+.torru, .vk, .inst, .tg, .toqqu-wilmargmail-com {
+  font-size: 1.04vw;
+  letter-spacing: -0.04vw;
+  color: #FFFFFF;
+}
+
+.group-19 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.design-by-qwesth, .layout-by-bro {
+  font-size: 0.83vw;
+  letter-spacing: -0.031vw;
+  color: rgba(255, 255, 255, 0.3);
+}
+
+.container-777  {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  max-height: 120vh;
+}
+
+.group-39 {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Выравнивание содержимого блока */
+  width: 27vw;
+  margin-right: 3vw;
+  margin-top: 2vw;
+}
+
+
+
+.container-888 {
+  display: flex;
+  justify-content: center; /* Центрируем текст внутри блока */
+  align-items: flex-end; /* Выравниваем текст по нижнему краю блока */
+  text-align: center; /* Центрируем текст */
+  width: 100%;
+}
+
+.container-2 {
+
+  display: flex;
+
+  align-items: left;
+}
+
+.container-1 {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.custom-link {
+  text-decoration: none; /* Подчеркивание остается */
+  opacity: 0.3; /* Исходная непрозрачность */
+  color: inherit; /* Сохраняет цвет текста */
+  transition: opacity 0.5s ease; /* Плавный переход непрозрачности */
+}
+
+.custom-link:hover {
+  color: #FFFFFF;
+  text-decoration: none;
+  opacity: 1; /* Если нужно, чтобы при наведении непрозрачность уменьшалась */
+}
+
+.fade-out {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-out.active {
+  opacity: 1;
+}
+
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.fade-in.active {
+  opacity: 1;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 3vw 0.927vw 0 4vw; /* 17.8px */
+  width: 100vw; /* 1616px */
+  box-sizing: border-box;
+  opacity: 0.3;
+  margin: 0;
+  position: fixed;
+  
+}
+
+.footer-left {
+  display: flex;
+  width: 100vw;
+}
+
+.footer-item {
+  margin: 0.573vw 3vw 0.052vw 0; /* 11px 1px */
+  display: inline-block;
+  word-break: break-word;
+  font-family: 'Helvetica', 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  font-size: clamp(10px, 1.0417vw, 20px); /* Адаптивный размер шрифта */
+  letter-spacing: -0.0417vw; /* -0.8px */
+  color: #D0D0D0;
+}
+
+.footer-right {
+  display: flex;
+
+  align-items: end;
+  margin: 0 16.65vw 0.78vw 1vw;
+}
+
+.footer-credit {
+  margin: 0 0.396vw 0.26vw 0; /* 7.6px 5px */
+  display: inline-block;
+  word-break: break-word;
+  font-family: 'Helvetica', 'Roboto Condensed', sans-serif;
+  font-weight: normal;
+  font-size: clamp(8px, 0.833vw, 16px); /* Адаптивный размер шрифта */
+  letter-spacing: -0.0313vw; /* -0.6px */
+  color: #D0D0D0;
+}
+
+/* Общие стили для мобильной версии */
+#mobile-menu {
+  display: none;
+}
+
+.group-67 {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-image: none;
+    transform: none;
+  }
+  
+   /* Скрытое меню по умолчанию */
+#mobile-menu {
+  position: fixed;
+  top: -100%; /* Скрываем меню за экраном */
+  left: 0;
+  width: 100%;
+  height: 100vh;
+ 
+  background-color: #303030;
+  display: block;
+  flex-direction: column;
+  justify-content: top;
+  align-items: center;
+  transition: top 0.5s ease-in-out; /* Плавная анимация появления */
+  z-index: 1000;
+ 
+}
+
+/* Меню при открытии */
+#mobile-menu.menu.menu-open {
+  background-color: #303030;
+  top: 0; /* Меню плавно появляется сверху */
+}
+
+/* Ссылки в меню */
+#mobile-menu a {
+  color: #D0D0D0;
+  font-size: 24px;
+  margin: 10px 0;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+#mobile-menu a:hover {
+  color: white;
+}
+
+/* Скрываем иконку закрытия по умолчанию */
+#close-icon {
+  display: none;
+}
+
+/* Плавное переключение иконок */
+.menu-open #menu-icon {
+  display: none;
+}
+
+.menu-open #close-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.group-67 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  padding-right: 15px;
+  margin-bottom: 435px;
+  background-color: #303030;
+  color: #D0D0D0;
+  cursor: pointer;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0px;
+}
+
+.main-menu {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.menu-close-main {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-content: flex-start;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 100px;
+  padding: 15px;
+  padding-right: 15px;
+}
+
+.torru-1 {
+  font-size: 24px;
+}
+
+.torru-2 {
+  
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.group-66 img {
+
+  width: 45px;
+  height: 16px;
+
+}
+
+.header {
+  display: none;
+  margin: 0;
+  padding: 10px 20px;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 435px;
+}
+
+.header-left {
+  display: none;
+  width: auto; /* Убираем фиксированную ширину */
+  font-size: 20px; /* Уменьшаем шрифт для мобильных */
+  
+}
+
+.header-right {
+  display: none;
+  font-size: 16px; /* Соответствующее уменьшение шрифта */
+  width: auto;
+}
+
+  .main-conter {
+    position: static;
+    top: 0;
+    padding: 10px;
+    width: 100%; /* Подстраиваем ширину под экран */
+  }
+
+  .main-menu img {
+    width: 22px !important;
+    height: 22px !important;
+  }
+  
+  .container-group {
+    display: block;
+  }
+
+  .container {
+    margin-top: 20px;
+    flex-direction: column;
+    width: 100%; /* Увеличиваем ширину блока */
+    display: block;
+    margin-top: 455px;
+  }
+  .group-54 {
+    display: none;
+  } 
+
+  .group-39 {
+    display: block;
+
+  }
+
+  .container-6, .container-8 {
+    font-size: 30px; /* Уменьшаем размер текста */
+    color: #A0A0A0;
+    
+  }
+
+  .container-4, .container-9 {
+    font-size: 14px; /* Уменьшаем текст для мобильных */
+    line-height: 1.4;
+    color: #D0D0D0;
+  }
+
+  .container-5, .container-7 {
+    font-size: 30px;
+    color: #D0D0D0;
+    margin-bottom: 0;
+  }
+
+  .partner-name {
+    font-size: 16px; /* Уменьшаем размер текста для партнеров */
+    margin-bottom: 10px;
+  }
+
+  .rectangle-192 img {
+    width: 100%;
+    height: auto; /* Уменьшаем размер изображения для мобильных */
+  }
+
+  .container-8 {
+    display: block;
+   
+  }
+
+  img {
+    width: auto !important;  /* Отменяем ширину */
+    max-height: none !important;  /* Отменяем максимальную высоту */
+    vertical-align: baseline !important;  /* Возвращаем стандартное выравнивание */
+    opacity: 1 !important;  /* Если нужно, можно оставить прозрачность */
+    margin-right: 0 !important;  /* Убираем отступ справа */
+  
+  }
+
+  .rectangle-192 img{
+    
+    width: 100% !important;
+    height: 88vw !important;
+    align-items: center;
+  }
+
+  .container-777 {
+    display: block;
+  }
+
+  .container-2 img {
+      height: 22px !important;
+      width: 22px !important;
+  }
+
+  .container-1 {
+    flex-direction: row;
+    display: block;
+    width: 88vw;
+  }
+
+  .list {
+    width: 100%;
+    height: 100%;
+    margin-top: 75px;
+    flex-direction: row;
+  }
+
+  .footer {
+    margin-top: 10vw;
+    align-items: center;
+    padding: 20px;
+    width: auto;
+  }
+ 
+  .footer-right {
+    margin: 0;
+  }
+  
+  .footer-left .footer-item {
+    display: none; /* Скрываем все элементы */
+  }
+
+  /* Отображаем только элемент с id "torru-mobile" */
+  #torru-mobile {
+      display: block;
+      font-size: 18px;
+  }
+
+  .footer-left {
+    width: auto;
+  }
+  
+  .footer-credit {
+    font-size: 14px;
+  }
+}

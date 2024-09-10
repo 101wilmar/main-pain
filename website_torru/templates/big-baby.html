@@ -1,0 +1,273 @@
+
+{% load static %}
+<!DOCTYPE html>
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>torru</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="{% static "main_detail.css" %}" rel="stylesheet">
+</head>
+<body class="fade-in">
+  <div class="desktop-6">
+      <div class="header">
+          <span class="header-right">
+              <a class='custom-link' href="{% url 'torru:homes' %}">TORRU</a>
+              <a class='custom-link' href="{% url 'torru:homes' %}">Портфолио</a>
+              <a class='custom-link' href="{% url 'torru:homes' %}#about">О себе</a>
+              <a class='custom-link' href="{% url 'torru:graphic_design_list' %}">Графический дизайн</a>
+              <a class='custom-link' href="{% url 'torru:motion_design_list' %}">Моушн дизайн</a>
+              <a class='custom-link' href="{% url 'torru:homes' %}#about">Контакты</a>
+          </span>
+      </div>
+      <div class="group-67" >
+        <div class="torru-1">
+          <a class='custom-link' href="{% url 'torru:homes' %}" style='opacity:1;'>TORRU</a>
+        </div>
+        <div class="group-66" id="menu-toggle">
+          <img src="/static/images/menu.svg" id="menu-icon">
+        </div>
+      </div>
+  
+      <!-- Меню, которое будет открываться -->
+      <div class="menu" id="mobile-menu">
+        <div class='menu-close-main'>
+        <div class="torru-2">
+          <a class='custom-link' href="{% url 'torru:homes' %}">TORRU</a>
+        </div>
+        <div class="group-66" id="close-menu">
+          <img src="/static/images/menu-open.svg" id="close-icon">
+        </div>
+      </div>
+        <div class='main-menu'>
+        
+        <a class='custom-link' href="{% url 'torru:graphic_design_list' %}">Графический дизайн<img src="/static/images/group_131_x2.svg"></a>
+        <a class='custom-link' href="{% url 'torru:motion_design_list' %}">Моушн дизайн<img src="/static/images/group_131_x2.svg"></a>
+        <a class='custom-link' href="https://www.instagram.com/torru_design"><div class="social-item">INST<img src="/static/images/group_141_x2.svg"></div></a>
+        <a class='custom-link'  href="https://t.me/Toqqu"><div class="social-item">TG<img src="/static/images/group_151_x2.svg"></div></a>
+        <a class='custom-link'  href="https://vk.com/toqqu"><div class="social-item">VK<img src="/static/images/group_131_x2.svg"></div></a>
+        </div>
+      </div>
+    <div class="container">
+      <div class="container-2">
+        <div class="container-1">
+          
+          <a style='margin-right: 1vw;' class='custom-link fade-in-bottom' href="{% url 'torru:homes' %}"><img src="/static/images/group_131_x2.svg" /></a><div class='fade-in-right'  style='width:50vw;vertical-align: top;margin-top: -5.5px;'>BIG BABY TAPE</div>
+          <p class="container">
+            <span class="container-sub-3"></span><span></span>
+          </p>
+        </div>
+        <div class="container-1" id='description-item'>
+          Работа для Big Baby Tape
+        </div>
+       
+      </div>
+      <div class="rectangle-21">
+        <iframe width="100%" height="80% " src="https://www.youtube.com/embed/oNsJohsG5zc?si=MG0nvfq-X-e-PQkP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+    </div>
+      <div class="partners-list">
+        <div class="partner">
+            <a class='custom-link-prime' style='opacity:1;'>
+                <div class="partner-name">Big baby tape<img src="{% static 'images/group_131_x2.svg' %}" /></div>
+            </a>
+        </div>
+        <div class="partner">
+            <a class='custom-link-prime' href="{% url 'torru:media_detail' slug='onyx' %}">
+                <div class="partner-name">ONYX<img src="{% static 'images/group_131_x2.svg' %}" /></div>
+            </a>
+        </div>
+        <div class="partner">
+            <a class='custom-link-prime' href="{% url 'torru:media_detail' slug='treepside' %}">
+                <div class="partner-name">treepside<img src="{% static 'images/group_131_x2.svg' %}" /></div>
+            </a>
+        </div>
+    </div>
+  
+    <div class="partners-list">
+        <div class="partner">
+            <a class='custom-link-prime' href="{% url 'torru:media_detail' slug='10age' %}">
+                <div class="partner-name">10AGE<img src="{% static 'images/group_131_x2.svg' %}" /></div>
+            </a>
+        </div>
+        <div class="partner">
+            <a class='custom-link-prime' href="{% url 'torru:media_detail' slug='bushido-zho' %}">
+                <div class="partner-name">BUSHIDO ZHO<img src="{% static 'images/group_131_x2.svg' %}" /></div>
+            </a>
+        </div>
+        <div class="partner">
+            <a class='custom-link-prime' href="{% url 'torru:media_detail' slug='chief-keef' %}">
+                <div class="partner-name">CHIEF KEEF<img src="{% static 'images/group_131_x2.svg' %}" /></div>
+            </a>
+        </div>
+    </div>
+    <div class="partners-list">
+        <div class="partner">
+            <a class='custom-link-prime' href="{% url 'torru:media_detail' slug='alblak-52' %}">
+                <div class="partner-name">ALBLAK 52<img src="{% static 'images/group_131_x2.svg' %}" /></div>
+            </a>
+        </div>
+        <div class="partner">
+            <a class='custom-link-prime' href="{% url 'torru:media_detail' slug='4n-way' %}">
+                <div class="partner-name">4N WAY<img src="{% static 'images/group_131_x2.svg' %}" /></div>
+            </a>
+        </div>
+        <div class="partner">
+            <a class='custom-link-prime' href="{% url 'torru:media_detail' slug='lovv66' %}">
+                <div class="partner-name">LOVV66<img src="{% static 'images/group_131_x2.svg' %}" /></div>
+            </a>
+        </div>
+   
+      </div>
+      <div class="footer">
+        <div class="footer-left">
+          <a class='custom-link' style='opacity:1;' href="{% url 'torru:homes' %}"><div class="footer-item" id='torru-mobile'>TORRU</div></a>
+          <a class='custom-link' style='opacity:1;' href="{% url 'torru:homes' %}#graph-mot"><div class="footer-item" >Портфолио</div></a>
+          <a class='custom-link' style='opacity:1;' href="https://vk.com/toqqu"><div class="footer-item" >VK</div></a>
+          <a class='custom-link' style='opacity:1;' href="https://www.instagram.com/torru_design"><div class="footer-item" >INST</div>
+          <a class='custom-link' style='opacity:1;' href="https://t.me/Toqqu"><div class="footer-item" >TG</div></a>
+          <a class='custom-link' style='opacity:1;' href="mailto:toqqu.wilmar@gmail.com"><div class="footer-item">toqqu.wilmar@gmail.com</div></a>
+        </div>
+        <div class="footer-right">
+          <div class="footer-credit">Design by QWESTH</div>
+
+        </div>
+      
+    </div>
+  </div>
+ 
+ 
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const thumbnails = document.querySelectorAll('.thumbnail');
+        const mainImage = document.getElementById('main-image');
+        const mainContainer = document.querySelector('.rectangle-21'); // Контейнер, в котором будут отображаться видео или изображения
+    
+        thumbnails.forEach(function(thumbnail) {
+            thumbnail.addEventListener('click', function() {
+                const newSrc = thumbnail.getAttribute('data-large');
+                if (thumbnail.tagName.toLowerCase() === 'img') {
+                    if (mainImage) {
+                        mainImage.style.opacity = 0; // Сначала скрываем текущее изображение
+    
+                        setTimeout(function() {
+                            mainImage.src = newSrc; // Меняем изображение
+                            mainImage.style.opacity = 1; // Показываем новое изображение
+                            mainImage.style.display = 'block'; // Показываем изображение
+                        }, 300); // Время соответствует transition
+                    }
+    
+                    // Удаляем видео, если оно есть
+                    const existingVideo = document.getElementById('main-video');
+                    if (existingVideo) {
+                        existingVideo.remove();
+                    }
+                } else if (thumbnail.tagName.toLowerCase() === 'video') {
+                    // Удаляем изображение, если оно есть
+                    if (mainImage) {
+                        mainImage.style.display = 'none'; // Скрываем изображение
+                    }
+    
+                    // Проверяем, есть ли уже mainVideo на странице
+                    let mainVideo = document.getElementById('main-video');
+                    if (!mainVideo) {
+                        // Создаем элемент видео, если его нет
+                        mainVideo = document.createElement('video');
+                        mainVideo.id = 'main-video';
+                        mainVideo.style.width = '20vw';
+                        mainVideo.style.height = ' 35vw';
+                        mainVideo.controls = true;
+                        mainContainer.appendChild(mainVideo);
+                    }
+    
+                    mainVideo.style.opacity = 0; // Сначала скрываем текущее видео
+    
+                    setTimeout(function() {
+                        mainVideo.src = newSrc; // Меняем видео
+                        mainVideo.style.opacity = 1; // Показываем новое видео
+                        mainVideo.style.display = 'block'; // Отображаем видео
+                        mainVideo.play(); // Начинаем воспроизведение нового видео
+                    }, 300); // Время соответствует transition
+                }
+            });
+        });
+    });
+    document.addEventListener("DOMContentLoaded", function() {
+      const fadeInRightElements = document.querySelectorAll('.fade-in-right');
+      const fadeInBottomElements = document.querySelectorAll('.fade-in-bottom');
+  
+      // Добавляем класс active с небольшой задержкой после загрузки страницы
+      setTimeout(() => {
+          fadeInRightElements.forEach(element => {
+              element.classList.add('active');
+          });
+          fadeInBottomElements.forEach(element => {
+              element.classList.add('active');
+          });
+      }, 100);
+  });
+  
+  document.addEventListener("DOMContentLoaded", function() {
+    const links = document.querySelectorAll("a.custom-link, a.custom-link-prime");
+    const body = document.querySelector("body");
+
+    links.forEach(link => {
+      link.addEventListener("click", function(event) {
+        event.preventDefault();
+        const href = this.href;
+
+        // Запускаем анимацию исчезновения
+        body.classList.add("fade-out", "active");
+
+        // Ждем окончания анимации, затем переходим на новую страницу
+        setTimeout(() => {
+          window.location.href = href;
+        }, 500); // Время задержки должно совпадать с продолжительностью transition
+      });
+    });
+
+    // При загрузке новой страницы добавляем класс для анимации появления
+    body.classList.add("fade-in", "active");
+  });
+    
+
+  document.addEventListener("DOMContentLoaded", function() {
+    const nextPageBtn = document.getElementById("next-page-btn");
+
+    nextPageBtn.addEventListener("click", function() {
+        // Здесь можно динамически подставлять следующий слаг
+        // Для примера предположим, что следующий слаг 'next-slug'
+
+        const nextSlug = 'next-slug';  // Здесь ты можешь программно определить следующий слаг
+        const nextUrl = `/media/${nextSlug}/`;
+
+        // Переход на следующую страницу
+        window.location.href = nextUrl;
+    });
+});
+
+const menuToggle = document.getElementById('menu-toggle');
+const mobileMenu = document.getElementById('mobile-menu');
+const closeMenu = document.getElementById('close-menu');
+
+// Добавляем обработчик клика на кнопку открытия меню
+menuToggle.addEventListener('click', function() {
+  // Переключаем класс menu-open для показа или скрытия меню
+  mobileMenu.classList.toggle('menu-open');
+});
+
+// Добавляем обработчик клика на кнопку закрытия меню
+closeMenu.addEventListener('click', function() {
+  // Убираем класс menu-open, чтобы меню закрылось
+  mobileMenu.classList.remove('menu-open');
+});
+      
+    </script>
+</body>
+</html>
